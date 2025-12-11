@@ -16,7 +16,7 @@ export const PersonalInfo: AboutMeData = {
 
 export const games: Game[] = [
   {
-    name: "GAME_NAME",
+    name: "GAME_NAME 1",
     description: "GAME_DESCRIPTION",
     genres: ["GAME_GENRE", "GAME_GENRE..."],
     platforms: [Platform.Windows],
