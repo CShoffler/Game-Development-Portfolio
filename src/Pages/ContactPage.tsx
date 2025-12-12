@@ -71,13 +71,20 @@ const Button = styled.button`
 `;
 
 const ContactMe: React.FC = () => {
+
+  
   const [name, setName] = useState('');
   const [message, setMessage] = useState('');
 
   const handleSubmit = () => {
+      const subject = 'Portfolio Response Message from ${name}';
+    const body = '{message}'
+    const mailtoLink = 'mailto:cms6711@rit.edu?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}';
+    window.location.href = mailtoLink;
+    /*
     const formattedMessage = `Hey my name is ${name}\n${message}`;
     const url = `https://wa.me/${process.env.REACT_APP_WA_NUMBER}?text=${encodeURIComponent(formattedMessage)}`;
-    window.open(url, '_blank');
+    window.open(url, '_blank');*/
   };
 
   return (
@@ -95,7 +102,7 @@ const ContactMe: React.FC = () => {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
-        <Button onClick={handleSubmit}>Send via WhatsApp</Button>
+        <Button onClick={handleSubmit}>Send via email</Button>
       </ContactContainer>
     </CenterContainer>
   );

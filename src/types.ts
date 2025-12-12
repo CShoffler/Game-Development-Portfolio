@@ -1,6 +1,7 @@
 export enum LinkImageSource {
   Github = "/images/logos/github.png",
   ItchIo = "/images/logos/itch.io.png",
+  GoogleDrive = "/images/logos/GoogleDrive.png"
 }
 
 export enum Platform {
@@ -9,11 +10,15 @@ export enum Platform {
   Linux = "Linux",
   iOS = "iOS",
   Android = "Android",
+  YouTube = "YouTube"
 }
 
 export enum GameEngine {
   Unity = "Unity",
   Unreal = "Unreal",
+  Tactile = "Tacticle Board Game",
+  NA = "N/A",
+  DaVinciResolve = "Edited in DaVinci Resolve"
 }
 
 export enum MediaType {
@@ -34,8 +39,8 @@ export interface AboutMeData {
   image: string;
   cvUri: string;
   links: {
-    github: string;
-    itchIO: string;
+    //github: string;
+    //itchIO: string;
     linkedIn: string;
   };
 }
