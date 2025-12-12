@@ -46,10 +46,10 @@ export const games: Game[] = [
       {source: LinkImageSource.GoogleDrive, url: "https://drive.google.com/drive/folders/1XPIiGqEVk4IpJliG2PaMMxUosXq0cQ_N?usp=sharing"},
     ],
     media: [
-      { source: "/images/games/BITE_THE_BULLET/titleScreen", type: MediaType.Image },
-      { source: "https://youtu.be/RwSojpbEs14", type: MediaType.YouTube},
-      { source: "/images/games/BITE_THE_BULLET/vampireCastle", type: MediaType.Image },
-      { source: "/images/games/BITE_THE_BULLET/saloonStage", type: MediaType.Image },
+      { source: "/images/games/BITE_THE_BULLET/titleScreen.png", type: MediaType.Image },
+      { source: "https://www.youtube.com/embed/RwSojpbEs14", type: MediaType.YouTube},
+      { source: "/images/games/BITE_THE_BULLET/vampireCastle.png", type: MediaType.Image },
+      { source: "/images/games/BITE_THE_BULLET/saloonStage.png", type: MediaType.Image },
       //{ source: "/images/games/BITE_THE_BULLET/Screenshot_4.png", type: MediaType.Image },
     ],
   },
@@ -65,8 +65,8 @@ export const games: Game[] = [
       //{source: LinkImageSource.GoogleDrive, url: "https://drive.google.com/drive/folders/1XPIiGqEVk4IpJliG2PaMMxUosXq0cQ_N?usp=sharing"},
     ],
     media: [
-      { source: "https://youtu.be/lsnGCJqQzok", type: MediaType.YouTube},
-      { source: "https://youtu.be/niH2Sn7Ghmk", type: MediaType.YouTube},
+      { source: "https://www.youtube.com/embed/lsnGCJqQzok", type: MediaType.YouTube},
+      { source: "https://www.youtube.com/embed/niH2Sn7Ghmk", type: MediaType.YouTube},
     ],
   }
 ];
