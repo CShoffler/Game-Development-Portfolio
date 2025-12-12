@@ -56,8 +56,8 @@ const PersonalInfo: AboutMeData = {
   image: `${process.env.PUBLIC_URL}/images/Profile.jpg`,
   cvUri: `${process.env.PUBLIC_URL}/files/YOUR_CV.pdf`,
   links: {
-    github: "https://github.com/NAME",
-    itchIO: "https://NAME.itch.io",
+    //github: "https://github.com/NAME",
+    //itchIO: "https://NAME.itch.io",
     linkedIn: "https://www.linkedin.com/in/NAME",
   }
 };
