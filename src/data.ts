@@ -65,7 +65,7 @@ export const games: Game[] = [
       //{source: LinkImageSource.GoogleDrive, url: "https://drive.google.com/drive/folders/1XPIiGqEVk4IpJliG2PaMMxUosXq0cQ_N?usp=sharing"},
     ],
     media: [
-      { source: "https://www.youtube.com/embed/lsnGCJqQzok", type: MediaType.YouTube},
+      { source: "https://www.youtube.com/embed/hYJTBk00PME", type: MediaType.YouTube},
       { source: "https://www.youtube.com/embed/niH2Sn7Ghmk", type: MediaType.YouTube},
     ],
   }
