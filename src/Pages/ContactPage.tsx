@@ -77,8 +77,8 @@ const ContactMe: React.FC = () => {
   const [message, setMessage] = useState('');
 
   const handleSubmit = () => {
-    const subject = `Portfolio Response Message from ${name}`;
-    const body = `{message}`
+    const subject = `Portfolio Response from ${name}`;
+    const body = `${message}`
     const mailtoLink = `mailto:cms6711@rit.edu?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailtoLink;
     /*
