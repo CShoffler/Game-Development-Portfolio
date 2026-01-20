@@ -52,7 +52,25 @@ export const games: Game[] = [
       { source: "/images/games/BITE_THE_BULLET/saloonStage.png", type: MediaType.Image },
       //{ source: "/images/games/BITE_THE_BULLET/Screenshot_4.png", type: MediaType.Image },
     ],
-  },
+    },
+    {
+        name: "Trial By Recess",
+        description: "You're the new kid at school, and it's your job to take on the gauntlet, a yearly Rock, Paper, Scissors tournament run by the other kids. Make friends, enemies, and defy Fate in this exploratory narrative! For this project, I was the sole developer. Check out the Google Drive link for the game's most recent build on HTML, or check out the direct link to it hosted online!",
+        genres: ["Choice-Based Narrative"],
+        platforms: [Platform.Web],
+        engine: GameEngine.Twine,
+        links: [
+            //{ source: LinkImageSource.Github, url: "https://github.com/YOUR_REPO" },
+            { source: LinkImageSource.Web, url: "https://people.rit.edu/cms6711/TrialByRecess/" },
+            { source: LinkImageSource.GoogleDrive, url: "https://drive.google.com/drive/folders/1HTDNm39_hhfDZbrezWjk7LmWQY0Da-GJ?usp=sharing" },
+        ],
+        media: [
+            { source: "/images/games/TRIAL_BY_RECESS/Demo1.png", type: MediaType.Image },
+            { source: "/images/games/TRIAL_BY_RECESS/Demo2.png", type: MediaType.Image },
+            { source: "/images/games/TRIAL_BY_RECESS/Demo3.png", type: MediaType.Image },
+            { source: "/images/games/TRIAL_BY_RECESS/Demo4.png", type: MediaType.Image },
+        ],
+    },
   {
     name: "Video Essays",
     description: "Video essays that showcase editing and production skills, level design concepts, and media analysis.",
@@ -64,7 +82,8 @@ export const games: Game[] = [
       //{ source: LinkImageSource.ItchIo, url: "https://YOUR_ITCH.itch.io/GAME_NAME" },
       //{source: LinkImageSource.GoogleDrive, url: "https://drive.google.com/drive/folders/1XPIiGqEVk4IpJliG2PaMMxUosXq0cQ_N?usp=sharing"},
     ],
-    media: [
+      media: [
+      { source: "https://youtu.be/niH2Sn7Ghmk", type: MediaType.YouTube },
       { source: "https://www.youtube.com/embed/hYJTBk00PME", type: MediaType.YouTube},
       { source: "https://www.youtube.com/embed/niH2Sn7Ghmk", type: MediaType.YouTube},
     ],

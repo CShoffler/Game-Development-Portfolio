@@ -1,7 +1,8 @@
 export enum LinkImageSource {
   Github = "/images/logos/github.png",
   ItchIo = "/images/logos/itch.io.png",
-  GoogleDrive = "/images/logos/GoogleDrive.png"
+  GoogleDrive = "/images/logos/GoogleDrive.png",
+  Web = "/images/logos/web.png"
 }
 
 export enum Platform {
@@ -10,13 +11,15 @@ export enum Platform {
   Linux = "Linux",
   iOS = "iOS",
   Android = "Android",
-  YouTube = "YouTube"
+  YouTube = "YouTube",
+  Web = "Web"
 }
 
 export enum GameEngine {
   Unity = "Unity",
   Unreal = "Unreal",
   Tactile = "Tacticle Board Game",
+  Twine = "Twine",
   NA = "N/A",
   DaVinciResolve = "Edited in DaVinci Resolve"
 }
