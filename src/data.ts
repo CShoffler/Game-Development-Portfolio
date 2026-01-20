@@ -85,7 +85,6 @@ export const games: Game[] = [
       media: [
       { source: "https://youtu.be/niH2Sn7Ghmk", type: MediaType.YouTube },
       { source: "https://www.youtube.com/embed/hYJTBk00PME", type: MediaType.YouTube},
-      { source: "https://www.youtube.com/embed/niH2Sn7Ghmk", type: MediaType.YouTube},
     ],
   }
 ];
